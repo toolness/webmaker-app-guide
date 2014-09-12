@@ -14,7 +14,7 @@ blocks/
 
 Your folder should given a name that will be the `id` of your block. It will contain three files, `index.js` (the block constructor),  `index.html` (the template), and `index.less` (styles).
 
-#### index.js
+## index.js
 
 Blocks are [vue.js components](http://vuejs.org/guide/composition.html), created by creating a subclass of the generic `block` component (`lib/block.js`).
 
@@ -84,7 +84,7 @@ Everything in the data object is available to the template, so you can also add 
 });
 ```
 
-#### index.html
+## index.html
 
 Let's create a template for our `phonecall` block:
 
@@ -94,7 +94,7 @@ Let's create a template for our `phonecall` block:
 
 Everything in the `data` object on our `phonecall` constructor is available to the template. We can easily add the `label` attribute as text inside our button. We also added a `callMe` callback to an event-listener using the vue.js `v-click` directive. You can look at a list of all built-in directives [here](http://vuejs.org/api/directives.html).
 
-### index.less
+## index.less
 
 ```css
 .phonecall {
