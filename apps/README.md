@@ -2,7 +2,7 @@
 
 ### How are apps stored internally?
 
-In Mobile Appmaker, individual **apps** created by a user is represented by a JSON blob that looks something like this:
+In Webmaker Mobile, individual **apps** created by a user is represented by a JSON blob that looks something like this:
 
 ```js
 {

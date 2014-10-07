@@ -1,6 +1,6 @@
 # Localization
 
-## Viewing localized version of mobile appmaker
+## Viewing localized version of Webmaker Mobile
 
 Assuming you've build everything and run the server with `gulp dev`, you should be able to see the app in any localization by visiting: [http://localhost:8080?locale=fr](http://localhost:8080?locale=fr), replacing `fr` which whatever locale code you want to look at (e.g. `en-US`, `bn-BD`, `nl`...)
 
@@ -25,9 +25,9 @@ Each string is keyed on a `keyname`, which in this example is "hi username". The
 
 The description is only shown to translators, to give them more information about the context of the string.
 
-## How to localize views in Mobile Appmaker
+## How to localize views in Webmaker Mobile
 
-Any time you render html in Mobile Appmaker, you will have access to the `i18n` filter.
+Any time you render html in Webmaker Mobile, you will have access to the `i18n` filter.
 
 Here's an example html file that might be included in a view:
 ```html

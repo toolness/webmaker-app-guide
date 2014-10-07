@@ -2,13 +2,13 @@
 
 ## What are blocks?
 
-Mobile Appmaker apps are made of **blocks**, which are self-contained functional units inside an app. They have some default properties and functionality, as well as **editable attributes** like color and text.
+Webmaker Mobile apps are made of **blocks**, which are self-contained functional units inside an app. They have some default properties and functionality, as well as **editable attributes** like color and text.
 
 Blocks might be very simple things like a textbox or an image, or they might be more complex, like a feed of photos or a hashtag search on twitter.
 
 ## What are they for?
 
-Users can add multiple instances of any block type installed in Mobile Appmaker to an app they have created. For example, if I create an empty app called *Toronto Tour* , I might add a **text** block for a headline, a **map** block, another *text* block for a description. Once a block is added to the app, users can edit properties of it by tapping on the block and editing any of the **editable attributes**.
+Users can add multiple instances of any block type installed in Webmaker Mobile to an app they have created. For example, if I create an empty app called *Toronto Tour* , I might add a **text** block for a headline, a **map** block, another *text* block for a description. Once a block is added to the app, users can edit properties of it by tapping on the block and editing any of the **editable attributes**.
 
 ## What defines the properties of a block?
 
@@ -38,4 +38,4 @@ This is an example of the data definition for the image block. It only has a sin
 
 ## What defines the style and layout of a block?
 
-All blocks have an html template and css (Less) file which are used to generate block instances. They can extend global styles provided by Mobile Appmaker or be completely custom.
+All blocks have an html template and css (Less) file which are used to generate block instances. They can extend global styles provided by Webmaker Mobile or be completely custom.

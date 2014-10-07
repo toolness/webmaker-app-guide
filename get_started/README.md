@@ -2,11 +2,11 @@
 
 ### Dependencies
 
-To get a local version of Mobile Appmaker running, you'll need to have [git](http://git-scm.com/), [node](http://nodejs.org/), and [gulp](http://gulpjs.com/) installed on your local machine.
+To get a local version of Webmaker Mobile running, you'll need to have [git](http://git-scm.com/), [node](http://nodejs.org/), and [gulp](http://gulpjs.com/) installed on your local machine.
 
 ### Clone
 
-In order to contribute to Mobile Appmaker, you'll need to **create your own fork** of Mobile Appmaker and make pull-requests against our master branch.
+In order to contribute to Webmaker Mobile, you'll need to **create your own fork** of Webmaker Mobile and make pull-requests against our master branch.
 
 Clone from your own fork or from the original:
 
