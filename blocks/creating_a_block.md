@@ -1,4 +1,4 @@
-# Creating a block
+# Creating a Block
 
 In order to add a block, you will need to add a folder to the `blocks` directory.
 
