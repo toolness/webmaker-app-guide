@@ -4,7 +4,7 @@ If you're thinking about doing bugs to change the editor UI and functionality, y
 
 In Webmaker Mobile, components are individual units of code, including html, js, and possibly css, that add functionality to a element (or tree elements) in the DOM.
 
-** Where can I find existing components?
+## Where can I find existing components?
 
 Each directory in the (components/)[https://github.com/mozillafordevelopment/webmaker-app/tree/master/components/] directory represents a components.
 
