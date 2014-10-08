@@ -8,9 +8,9 @@ You can also try this on our live staging site at [https://mobile-appmaker.mofos
 
 ## How localization works
 
-All strings are stored in json files in the [https://github.com/mozillafordevelopment/mobile-appmaker/tree/master/locale/](locale/) directory. Only the strings for `en-US` are checked into Github – these function as our source files. The rest are pulled down during the build process from Transifex, a continuous translation platform.
+All strings are stored in json files in the [https://github.com/mozillafordevelopment/webmaker-app/tree/master/locale/](locale/) directory. Only the strings for `en-US` are checked into Github – these function as our source files. The rest are pulled down during the build process from Transifex, a continuous translation platform.
 
-[The json files](https://github.com/mozillafordevelopment/mobile-appmaker/tree/master/locale/en_US/mobile-appmaker.json) follow the `chrome.i18n` format, which looks like this:
+[The json files](https://github.com/mozillafordevelopment/webmaker-app/tree/master/locale/en_US/mobile-appmaker.json) follow the `chrome.i18n` format, which looks like this:
 
 ```js
 {
@@ -41,7 +41,7 @@ To localize it, first we convert all the strings to key-names and apply the `i18
 <button>{{'Submit' | i18n}}</button>
 ```
 
-Then, we add the strings to [locale/en_US/mobile-appmaker.json](https://github.com/mozillafordevelopment/mobile-appmaker/blob/master/locale/en_US/mobile-appmaker.json):
+Then, we add the strings to [locale/en_US/mobile-appmaker.json](https://github.com/mozillafordevelopment/webmaker-app/blob/master/locale/en_US/mobile-appmaker.json):
 ```js
 {
     "Blah blah blah blah": {

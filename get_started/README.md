@@ -20,7 +20,7 @@ Clone from your own fork or from the original:
 
 ```
 git clone https://github.com/mozillafordevelopment/webmaker-app.git
-cd mobile-appmaker
+cd webmaker-app
 ```
 
 ### Build and develop
