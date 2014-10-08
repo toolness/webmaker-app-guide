@@ -112,5 +112,5 @@ views/some-view/index.js
 views/some-view/index.html
 ```html
     <label>What is your favourite fruit?</label>
-    <div v-component="selector" v-with="selectorData"
+    <div v-component="selector" v-with="selectorData"></div>
 ```
