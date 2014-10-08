@@ -2,7 +2,15 @@
 
 ### Dependencies
 
-To get a local version of Webmaker Mobile running, you'll need to have [git](http://git-scm.com/), [node](http://nodejs.org/), and [gulp](http://gulpjs.com/) installed on your local machine.
+To get a local version of Webmaker Mobile running, you'll need to have [git](http://git-scm.com/) and [node](http://nodejs.org/) installed on your local machine.
+
+You'll also need to **globally install [gulp](http://gulpjs.com/)**, which we use for building front-end assets:
+
+```bash
+npm install -g gulp
+```
+
+*Note: If you get errors globally installing gulp, try `sudo npm install -g gulp`.*
 
 ### Clone
 
@@ -11,13 +19,13 @@ In order to contribute to Webmaker Mobile, you'll need to **create your own fork
 Clone from your own fork or from the original:
 
 ```
-git clone https://github.com/mozillafordevelopment/mobile-appmaker.git
+git clone https://github.com/mozillafordevelopment/webmaker-app.git
 cd mobile-appmaker
 ```
 
 ### Build and develop
 
-To start developing, all you need to do is run the following in the `mobile-appmaker` directory you just created:
+To start developing, all you need to do is run the following in the `webmaker-app` directory you just created:
 
 ```bash
 npm install
