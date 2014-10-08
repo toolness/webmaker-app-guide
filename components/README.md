@@ -6,9 +6,9 @@ In Webmaker Mobile, components are individual units of code, including html, js,
 
 ## Where can I find existing components?
 
-Each directory in the (components/)[https://github.com/mozillafordevelopment/webmaker-app/tree/master/components/] directory represents a components.
+Each directory in the [https://github.com/mozillafordevelopment/webmaker-app/tree/master/components/](components/) directory represents a components.
 
-For example, the (tabBar component)[https://github.com/mozillafordevelopment/webmaker-app/tree/master/components/tabBar] creates a bar at the bottom of the app with navigation buttons.
+For example, the [https://github.com/mozillafordevelopment/webmaker-app/tree/master/components/tabBar](tabBar component) creates a bar at the bottom of the app with navigation buttons.
 
 ![tabBar visual example](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-10-08_at_4.36.06_PM.png)
 
