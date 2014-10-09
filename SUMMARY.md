@@ -2,6 +2,9 @@
 
 * [Introduction](README.md)
 * [Get started](get_started/README.md)
+   * [Important links](get_started/important_links.md)
+   * [Mailing list](get_started/mailing_list.md)
+   * [Contributing to these docs](get_started/these_docs.md)
 * [Components](components/README.md)
 * [Apps](apps/README.md)
 * [Blocks](blocks/README.md)

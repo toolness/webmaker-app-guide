@@ -2,22 +2,6 @@
 
 Webmaker Mobile is a product exploring how to radically lower the entry to creating and distributing mobile applications through on-device authoring.
 
-## Important links
-
-#### Live server
-[http://webmaker-app.mofodev.net](http://webmaker-app.mofodev.net/profile)
-
-#### Main repository
-[mozillafordevelopment/webmaker-app](https://github.com/mozillafordevelopment/webmaker-app)
-
-#### Repository for these docs
-[mozillafordevelopment/webmaker-app-guide](https://github.com/mozillafordevelopment/webmaker-app-guide)
-
-#### Mailing list
-
-If you're interested in discussing new features or learning about new opportunities to contribute, you should join the mailing list: [https://mail.mozilla.org/listinfo/webmaker-mobile-dev](https://mail.mozilla.org/listinfo/webmaker-mobile-dev)
-
-
 ## Overview
 
 Webmaker Mobile is structured around a number of lightweight composable CommonJS modules that provide abstractions for routing, XHR, IndexedDB, i18n, and MVVM. Bundling for distribution is handled by browserify. Testing is handled by mocha and phantomjs.
