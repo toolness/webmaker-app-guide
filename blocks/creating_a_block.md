@@ -105,3 +105,39 @@ Everything in the `data` object on our `phonecall` constructor is available to t
 
 You can target your block using whatever class name your specified in the `className` property on your constructor (in `index.js`). Since your less will be globally required, you will have access to all colours, variables, and mixins declared in `static/styles/`. See the [less docs](http://lesscss.org/) for more information.
 
+## Tips
+
+### How to detect editing mode
+
+If you'd like to disable or enable a part of your code (for example, a click listener) during editing mode, you can check `this.isEditing` inside the `created` or `ready` function. For example, in index.js:
+
+```js
+...
+data: {
+    name: 'Phone Call',
+    icon: '/images/blocks_phone.png',
+    attributes: {
+       number: {
+            label: 'Phone #',
+            type: 'string',
+            value: '+18005555555'
+        },
+        label: {
+            label: 'Label',
+            type: 'string',
+            value: 'Send SMS'
+        }
+    }
+},
+created: function () {
+    var self = this;
+
+    self.$el.addEventListener('click', function (e) {
+        // Return early if this is editing mode
+        if (self.isEditing) return;
+        window.location = 'tel:' + self.$data.attributes.number.value;
+    }, false);
+}
+...
+
+```
