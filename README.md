@@ -12,6 +12,7 @@ Views and components are the basic building blocks of Appmaker. Views are the hi
 Views and components are the basic building blocks of the Webmaker App. Views are the highest level object and represent a discrete screen such as "Discover" or "App Details". Both are defined via the MVVM abstractions provided by [Vue.js](https://github.com/yyx990803/vue).
 
 Anatomy of a view:
+
 ```
 myView
     -> index.js
