@@ -42,7 +42,7 @@ To start the app in offline mode create a `.env` file in the root of the `webmak
 
 ```
 touch .env
-``
+```
 
 Then, add the following line to that file and restart with `gulp dev`
 
