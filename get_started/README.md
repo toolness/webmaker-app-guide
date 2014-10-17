@@ -50,6 +50,6 @@ Then, add the following line to that file and restart with `gulp dev`
 OFFLINE_MODE=true
 ```
 
-To read more about configuration see [Configuration](get_started/config.md)
+To read more about configuration see [Configuration](config.md)
 
 
