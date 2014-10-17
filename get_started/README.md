@@ -50,6 +50,8 @@ Then, add the following line to that file and restart with `gulp dev`
 OFFLINE_MODE=true
 ```
 
+You can also start the app in offline temporarily by appending `?offline=true` to the URL in your browser.
+
 To read more about configuration see [Configuration](config.md)
 
 
