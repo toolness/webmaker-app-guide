@@ -6,7 +6,8 @@ You should not need to modify any of the default configuration (`config/defaults
 touch .env
 ```
 
-Take a look at `config/defaults.env` to see what you can add/change.
+Take a look at [config/defaults.env](https://github.com/mozillafordevelopment/webmaker-app/blob/master/config/defaults.env) to see what you can add/change.
+
 
 ## Using config values
 
