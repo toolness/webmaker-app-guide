@@ -33,3 +33,23 @@ gulp dev
 ```
 
 This will pull down localization files, build the project, start a webserver for you at `http://localhost:8080`, and run a `watch` process so that your front-end assets will be regenerated as you make changes.
+
+### Trouble connecting?
+
+By default, you will need to log in to test the app. If you're having trouble logging in or you see connection errors in the console, [File an issue](https://github.com/mozillafordevelopment/webmaker-app/issues) and switch to **offline mode** instead.
+
+To start the app in offline mode create a `.env` file in the root of the `webmaker-app` directory:
+
+```
+touch .env
+``
+
+Then, add the following line to that file and restart with `gulp dev`
+
+```
+OFFLINE_MODE=true
+```
+
+To read more about configuration see [Configuration](get_started/config.md)
+
+
