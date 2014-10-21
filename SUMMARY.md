@@ -13,3 +13,6 @@
    * [Editable attributes reference](blocks/editable_attributes.md)
    * [Tutorial: create a phonecall block](blocks/tutorial_phonecall.md)
 * [Localization](localization/README.md)
+* [UI](ui/README.md)
+   * [UI Components](ui/ui_components.md)
+   * [Animations](ui/animations.md)
