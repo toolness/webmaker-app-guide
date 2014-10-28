@@ -45,3 +45,7 @@ You can also use the keybinding:
 The debugging tool can be accessed by pressing the pause button ![Pause button](../img/pause.png) while the application is running.
 
 ![WebIDE and running app](../img/IDEdebugger.png)
+
+###Learn More
+
+For more information on the WebIDE, [check out this page](https://developer.mozilla.org/en-US/docs/Tools/WebIDE).
