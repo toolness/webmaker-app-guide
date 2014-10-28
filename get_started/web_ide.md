@@ -25,7 +25,7 @@ You can also use the keybinding:
 ###Installing Firefox OS Simulator
 
 1. On the top right, select `Select Runtime -> Install Simulator` and from the list install "Firefox OS 2.0 Simulator"
-2. Press Close in the top right to get back to the first screen
+2. Press "Close" in the top right to get back to the first screen
 
 ###Select Mobile Webmaker Project
 
