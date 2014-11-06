@@ -6,6 +6,7 @@
    * [Important links](get_started/important_links.md)
    * [Mailing list](get_started/mailing_list.md)
    * [Contributing to these docs](get_started/these_docs.md)
+   * [Firefox Web IDE](get_started/web_ide.md)
 * [Components](components/README.md)
 * [Templates](templates/README.md)
 * [Blocks](blocks/README.md)
