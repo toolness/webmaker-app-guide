@@ -2,6 +2,9 @@
 
 ## Alerts
 
+![alerts](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.27.52_AM.png
+)
+
 #### Usage
 
 ```html
@@ -12,6 +15,36 @@
 
 * `type`: Can be `error` or `success`. Defaults to `error`.
 * `message`: Message to display. Note this will be run through the `i18n` (i.e. translation) filter as a key. Defaults to `errorDefault`.
+
+## makeBar
+
+#### Usage
+
+![makeBar example](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.38.52_AM.png)
+
+```html
+<div v-component="makeBar" v-with="uiMode: 'edit', onChange: changeMode"></div>
+```
+
+#### Data
+* `uiMode`: should be `edit`, `play`, or `data`. Sets the position of the slider
+* `onChange`: function that runs when a `uiMode` change is initiated
+
+## navBar
+
+![navBar](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.40.40_AM.png)
+
+#### Usage
+
+```
+<div v-component="navigationBar"></div>
+```
+
+#### Data
+* `back`: `true` or string: if true, creates a back button. if string, creates a back button link where `href` is that string
+* `cancel`: `true` or string: same as `back`, but creates a 'Cancel' button instead
+* `onDone`: function or string. runs that function or links to that string
+* `onDoneLabel`: label for onDone button. defaults to 'Done'
 
 ## Input error messages
 
