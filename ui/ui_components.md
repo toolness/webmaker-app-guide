@@ -54,6 +54,18 @@
 * `onDone`: function or string. runs that function or links to that string
 * `onDoneLabel`: label for onDone button. defaults to 'Done'
 
+## appCell
+
+![appCell](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_11.02.09_AM.png)
+
+#### Usage
+
+```html
+<ul class="list-cell">
+    <li v-component="appCell" v-repeat="apps"></li>
+</ul>
+```
+
 ## Switch
 
 ![switch](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.53.03_AM.png)
