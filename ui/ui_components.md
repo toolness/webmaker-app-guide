@@ -30,13 +30,21 @@
 * `uiMode`: should be `edit`, `play`, or `data`. Sets the position of the slider
 * `onChange`: function that runs when a `uiMode` change is initiated
 
+## tabBar
+
+![tabBar](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.59.44_AM.png)
+
+```html
+<div v-component="tabBar"></div>
+```
+
 ## navBar
 
 ![navBar](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.40.40_AM.png)
 
 #### Usage
 
-```
+```html
 <div v-component="navigationBar"></div>
 ```
 
@@ -46,6 +54,23 @@
 * `onDone`: function or string. runs that function or links to that string
 * `onDoneLabel`: label for onDone button. defaults to 'Done'
 
+## Switch
+
+![switch](https://k88hudson-screenshots.s3.amazonaws.com/screen-shots/k88mac@2x_2014-12-03_at_10.53.03_AM.png)
+
+#### Usage
+Sets a given value to `true` or `false`
+
+```html
+<div v-component="switch" v-with="value : sortOldest, options : options"></div>
+```
+
+#### Data
+* `value`: the value that should be set to `true`/`false` from user interactions
+* `options`:
+    * `On`: text value for initial `true` option
+    * `Off`: text value for initial `false` option
+    
 ## Input error messages
 
 This is not really a component so much as a set of styles. See `static/styles/forms.less`.
