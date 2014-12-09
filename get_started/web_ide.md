@@ -4,11 +4,9 @@
 
 Firefox WebIDE allows you to emulate Firefox OS using your browser and run Firefox OS applications for testing. It also includes a debugging tool.
 
-###Install Firefox Nightly
+###Install Firefox Developer Edition
 
-Firefox nightly is an experimental build of Mozilla's Firefox web browser made for testing purposes. Nightly includes new tools and features to use including Mozilla's WebIDE.
-
-In order to use Firefox WebIDE, you need to have nightly installed. You can download it here: [Download :arrow_down:](https://nightly.mozilla.org/)
+In order to use Firefox WebIDE, you need to have [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) installed.
 
 ###Opening WebIDE
 
